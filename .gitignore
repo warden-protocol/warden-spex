@@ -1,0 +1,16 @@
+*.zip
+.python-version
+.vscode
+.DS_Store
+.pytest_cache
+.ruff_cache
+.env
+__pycache__
+dist
+local
+*.pyc
+*.pyo
+**/*.ipynb_checkpoints
+cache.*
+TODO
+
