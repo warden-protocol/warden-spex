@@ -1,6 +1,6 @@
 [project]
 name = "warden-spex"
-version = "0.0.92"
+version = "0.0.94"
 description = "Statistical Proof of Execution (SPEX) by Warden Labs"
 readme = "README.md"
 authors = [
