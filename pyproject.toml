@@ -14,24 +14,12 @@ classifiers = [
 license-files = ["LICENSE"]
 license = "Apache-2.0"
 requires-python = ">=3.12.8"
-dependencies = [
-    "mypy>=1.15.0",
-    "pylint>=3.3.5",
-    "ruff>=0.9.9",
-    "vulture>=2.14",
-    "pytest>=8.3.5",
-    "ipywidgets>=8.1.5",
-    "jupyterlab>=4.3.5",
-    "matplotlib>=3.10.1",
-    "mltraq>=0.1.159",
-    "python-dotenv>=1.0.1",
-    "scipy>=1.15.2",
-    "pydantic>=2.10.6",
-    "rbloom>=1.5.2",
-]
+dependencies = ["scipy>=1.15.2", "pydantic>=2.10.6", "rbloom>=1.5.2"]
+
 
 [project.urls]
 Repository = "https://github.com/warden-protocol/warden-spex"
+
 
 [build-system]
 requires = ["hatchling"]
@@ -715,8 +703,17 @@ redefining-builtins-modules = [
 
 [dependency-groups]
 dev = [
+    "mypy>=1.15.0",
+    "pylint>=3.3.5",
+    "vulture>=2.14",
+    "pytest>=8.3.5",
+    "python-dotenv>=1.0.1",
+    "ipywidgets>=8.1.5",
+    "jupyterlab>=4.3.5",
+    "matplotlib>=3.10.1",
     "bibtexparser>=1.4.3",
     "colorama>=0.4.6",
- "semver>=3.0.4",
- "tomlkit>=0.13.2",
+    "ruff>=0.11.2",
+    "semver>=3.0.4",
+    "tomlkit>=0.13.2",
 ]
