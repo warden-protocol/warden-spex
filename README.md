@@ -66,7 +66,7 @@ Choose appropriate computational states to insert into the Bloom filter:
 - For floating-point or embedding-based tasks: apply robust or semantic hashing
 - For agentic or procedural outputs: hash structured execution plans
 
-Refer to the `PrimeSum` example in the repository ([test_spex.py](https://github.com/warden-protocol/warden-spex/tests/test_spex.py)) for a fully working task definition. For advanced workloads, SPEX also supports flexible handling of non-determinism through fuzzy or semantic state matching.
+Refer to the `PrimeSum` example in the repository ([test_spex.py](https://github.com/warden-protocol/warden-spex/blob/main/tests/test_spex.py)) for a fully working task definition. For advanced workloads, SPEX also supports flexible handling of non-determinism through fuzzy or semantic state matching.
 
 ## LICENSE
 
