@@ -1,6 +1,6 @@
 [project]
 name = "warden-spex"
-version = "0.0.94"
+version = "0.0.95"
 description = "Statistical Proof of Execution (SPEX) by Warden Labs"
 readme = "README.md"
 authors = [
@@ -14,7 +14,10 @@ classifiers = [
 license-files = ["LICENSE"]
 license = "Apache-2.0"
 requires-python = ">=3.12.8"
-dependencies = ["scipy>=1.15.2", "pydantic>=2.10.6", "rbloom>=1.5.2"]
+dependencies = [
+ "pydantic>=2.10.6",
+ "rbloom>=1.5.2",
+]
 
 
 [project.urls]
