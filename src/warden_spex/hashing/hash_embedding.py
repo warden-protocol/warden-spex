@@ -2,9 +2,12 @@ from itertools import combinations
 
 import numpy as np
 from numpy.typing import NDArray
-from scipy.spatial.distance import euclidean
 
 from warden_spex.hashing.hash_int import hash_int
+
+
+def euclidean(a, b):
+    return np.sqrt(np.sum((np.array(a) - np.array(b)) ** 2))
 
 
 def hash_embedding_m(A: NDArray[np.float64], V: NDArray[np.float64]) -> set[int]:
