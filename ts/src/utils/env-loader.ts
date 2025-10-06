@@ -7,8 +7,6 @@ dotenv.config({ quiet: true });
 
 // Define environment schema for validation
 const envSchema = z.object({
-    OPENAI_API_KEY: z.string().default(''),
-    NODE_ENV: z.enum(['DEVELOPMENT', 'PRODUCTION', 'TEST']).default('DEVELOPMENT'),
     LOG_LEVEL: z.enum(['DEBUG', 'INFO', 'WARN', 'ERROR']).default('INFO'),
 });
 

@@ -5,7 +5,7 @@ import { Blossom } from './spex';
 import { SolverProof } from './types';
 
 async function main() {
-    logger.info(`Starting SPEX demo application: env=${env.NODE_ENV} log_level=${env.LOG_LEVEL}`);
+    logger.info(`Starting SPEX demo application: log_level=${env.LOG_LEVEL}`);
 
     // Example usage of the Blossom class
     await demonstrateBlossom();
