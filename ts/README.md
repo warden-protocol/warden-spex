@@ -32,7 +32,7 @@ This demonstrates the SPEX TypeScript implementation including Bloom filter oper
 
 The implementation includes environment management with validation. Create a `.env` file:
 
-```
+```sh
 LOG_LEVEL=INFO
 ```
 
